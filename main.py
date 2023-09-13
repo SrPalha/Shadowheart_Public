@@ -125,3 +125,5 @@ async def on_message(message):
         sorteio_iniciado = True
         asyncio.create_task(view.atualizar_tempo()) 
         await message.channel.send("<@&1149687935319412848>")
+
+client.run('TOKEN')
